@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../Footer/Footer";
 import LargeCards from "../Layouts/LargeCards";
 import "./Page3.css";
 const Page3 = () => {
@@ -35,9 +36,27 @@ const Page3 = () => {
               text1="ENVIRONNEMENT"
               text2="PROJET DE REBOISEMENT NAATAL TOUBA"
             />
+            <LargeCards
+              image="./images/card1.jpeg"
+              text1="ENVIRONNEMENT"
+              text2="PROJET DE REBOISEMENT NAATAL TOUBA"
+            />
+          </div>
+          <div className="row1">
+            <LargeCards
+              image="./images/card1.jpeg"
+              text1="ENVIRONNEMENT"
+              text2="PROJET DE REBOISEMENT NAATAL TOUBA"
+            />
+            <LargeCards
+              image="./images/card1.jpeg"
+              text1="ENVIRONNEMENT"
+              text2="PROJET DE REBOISEMENT NAATAL TOUBA"
+            />
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

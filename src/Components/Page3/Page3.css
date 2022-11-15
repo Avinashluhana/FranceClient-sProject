@@ -13,3 +13,10 @@
 .page3-content{
     margin-top: 70px;
 }
+
+.row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
