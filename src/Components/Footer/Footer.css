@@ -1,0 +1,39 @@
+.footer-main {
+  background-color: #12552b;
+  color: white;
+  padding: 20px;
+}
+.footer-logo {
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: white;
+  border: 9px solid;
+  border-radius: 50%;
+}
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.mini-content {
+  display: flex;
+}
+.mini-content > span {
+  margin-right: 5px;
+}
+.footer-buttons > img {
+  width: 114.27px;
+}
+.icons {
+  display: flex;
+  margin-top: 10px;
+}
+.icons > i {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.google-button {
+  margin-right: 10px;
+}

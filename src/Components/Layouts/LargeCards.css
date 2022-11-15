@@ -1,0 +1,66 @@
+.largeCard {
+    width: 25vmax;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: rgb(48, 48, 48);
+    margin: 2vmax;
+    transition: all 0.5s;
+    background-color: #ffffff;
+    border-radius: 15px !important;
+    box-shadow: 0 0 5px rgba(15, 15, 15, 0.26);
+  }
+  
+  .largeCard > img {
+    width: 25vmax;
+    border-radius: 15px !important;
+  }
+  
+  .productCard > div {
+    margin: 0.5vmax;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .productCardSpan {
+    font: 300 0.7vmax "Roboto";
+  }
+  
+  .productCardSpan > p {
+    font-weight: 900;
+    font-size:small
+  }
+  
+  .productCard > span {
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 10px;
+  }
+  .productCard > button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card-button {
+    text-align: center;
+    background-color: #1f5d35;
+    color: white;
+    width: 120px;
+    border: none;
+    height: 30px;
+    border-radius: 5.34px;
+    font-size: 16.1px;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+  .arrow-image{
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 5px;
+  }
+  

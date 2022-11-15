@@ -1,0 +1,15 @@
+.page3-options{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+.page3-options > h4 {
+    margin-left: 40px;
+}
+.borders{
+    text-align: center;
+}
+.page3-content{
+    margin-top: 70px;
+}
