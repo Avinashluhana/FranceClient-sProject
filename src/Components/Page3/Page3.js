@@ -22,7 +22,7 @@ const Page3 = () => {
         </div>
 
         <div className="page3-options">
-          <h4>TOUT</h4>
+          <h4 className="first-option">TOUT</h4>
           <h4>SANTÉ</h4>
           <h4>ENVIRONNEMENT</h4>
           <h4>EDUCATION </h4>

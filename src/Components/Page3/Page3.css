@@ -6,6 +6,7 @@
 }
 .page3-options > h4 {
     margin-left: 40px;
+    font-weight: bold;
 }
 .borders{
     text-align: center;
@@ -19,4 +20,8 @@
     flex-direction: row;
     justify-content: center;
     margin-top: 10px;
+}
+.first-option{
+    border-bottom: 6px green solid;
+
 }

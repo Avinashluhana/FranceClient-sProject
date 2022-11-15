@@ -7,7 +7,11 @@ const Header = () => {
     <div>
       <div className="header-main">
         <div className="logo-section">
-          <img src="./images/logo-white.png" alt="logo" className="logo-image" />
+          <img
+            src="./images/logo-white.png"
+            alt="logo"
+            className="logo-image"
+          />
         </div>
         {/* <div className="upper-section">
           <p>OUVRIR UN COMPTE</p>
@@ -22,6 +26,9 @@ const Header = () => {
             </Link>
             <Link className="links" to="/page3">
               <li>NOS PROJETS </li>
+            </Link>
+            <Link className="links" to="/page3">
+              <li> NOS RÉALISATIONS</li>
             </Link>
           </ul>
         </div>
