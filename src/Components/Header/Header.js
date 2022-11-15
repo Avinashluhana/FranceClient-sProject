@@ -27,7 +27,7 @@ const Header = () => {
             <Link className="links" to="/page3">
               <li>NOS PROJETS </li>
             </Link>
-            <Link className="links" to="/page3">
+            <Link className="links" to="/page4">
               <li> NOS RÉALISATIONS</li>
             </Link>
           </ul>

@@ -1,0 +1,96 @@
+.image-section4 {
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  margin-left: 70px;
+}
+
+.text-section4 {
+  width: 40vmax;
+  margin-left: 50px;
+}
+.page4-image {
+  height: 50vh;
+  width: 20vmax;
+}
+.amount {
+  color: #12552b;
+  font-weight: bold;
+}
+
+.page4-mini-text {
+  color: #12552b;
+  font-weight: bold;
+}
+
+.page4-icons {
+  display: flex;
+  margin-top: 10px;
+}
+.page4-icons > i {
+  margin-left: 10px;
+  margin-top: 5px;
+  color: #12552b;
+}
+.page4-section2 {
+  text-align: center;
+  margin-top: 50px;
+}
+.box1 {
+  box-shadow: 0 0 5px rgba(15, 15, 15, 0.26);
+  width: 10vmax;
+  height: 6vh;
+  padding: 10px;
+}
+.box2{
+    box-shadow: 0 0 5px rgba(15, 15, 15, 0.26);
+    width: 10vmax;
+    height: 6vh;
+    background-color: #12552b;
+    color: white;
+
+}
+.box3{
+    box-shadow: 0 0 5px rgba(15, 15, 15, 0.26);
+    width: 10vmax;
+    height: 6vh;
+    padding: 10px;
+    margin-right: 20px;
+
+}
+
+.page4-Card {
+  width: 24vmax;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: rgb(48, 48, 48);
+  margin: 2vmax;
+  transition: all 0.5s;
+  background-color: #ffffff;
+  border-radius: 15px !important;
+  box-shadow: 0 0 5px rgba(15, 15, 15, 0.26);
+  height: 30vh;
+}
+.page4-Card > div {
+  margin: 0.5vmax;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.productCardSpan {
+  font: 300 0.7vmax "Roboto";
+}
+
+.productCardSpan > p {
+  font-weight: 900;
+  font-size: small;
+}
+
+.page4-Card > span {
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 10px;
+}

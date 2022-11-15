@@ -21,15 +21,10 @@ function App() {
           <Route path="/page2" element={<Page2 />} exact />
           <Route path="/page3" element={<Page3 />} exact />
           <Route path="/page4" element={<Page4 />} exact />
-
-
         </Routes>
-      
       </BrowserRouter>
-    
     </div>
   );
 }
-
 
 export default App;
