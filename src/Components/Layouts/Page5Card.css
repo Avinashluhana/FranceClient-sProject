@@ -1,0 +1,35 @@
+.largeCard1 {
+    width: 25vmax;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: rgb(48, 48, 48);
+    margin: 2vmax;
+    transition: all 0.5s;
+    background-color: #ffffff;
+    border-radius: 15px !important;
+    box-shadow: 0 0 5px rgba(15, 15, 15, 0.26);
+    padding-bottom: 10px;
+  }
+  
+  .largeCard1 > img {
+    width: 25vmax;
+    border-radius: 15px !important;
+  }
+  .largeCard1 > span {
+    margin-top: 20px;
+  }
+  
+  .largeCardSpan > p {
+    font-weight: 900;
+    font-size: large;
+    padding: 1vmax;
+    
+  }
+  .text3{
+    padding-left: 1vmax;
+    color: #12552b;
+    font-weight: bold;
+  }
+
+  

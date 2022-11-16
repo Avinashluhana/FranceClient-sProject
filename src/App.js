@@ -8,6 +8,7 @@ import Header from "./Components/Header/Header";
 // import Footer from "./Components/Footer/Footer";
 import Page3 from "./Components/Page3/Page3";
 import Page4 from "./Components/Page 4/Page4";
+import Page5 from "./Components/Page 5 /Page5";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/page2" element={<Page2 />} exact />
           <Route path="/page3" element={<Page3 />} exact />
           <Route path="/page4" element={<Page4 />} exact />
+          <Route path="/page5" element={<Page5 />} exact />
         </Routes>
       </BrowserRouter>
     </div>
