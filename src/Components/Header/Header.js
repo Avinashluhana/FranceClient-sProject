@@ -33,6 +33,9 @@ const Header = () => {
             <Link className="links" to="/page5">
               <li> ACTUALITÉS</li>
             </Link>
+            <Link className="links" to="/page6">
+              <li>CONTACTS </li>
+            </Link>
           </ul>
         </div>
       </div>
