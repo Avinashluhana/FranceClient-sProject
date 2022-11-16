@@ -1,0 +1,73 @@
+.page6-section1 {
+  margin-top: 5vmax;
+  width: 45vmax;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: bold;
+}
+.page6-heading {
+  color: #12552b;
+  font-weight: 900;
+}
+
+.page6-section2 {
+  background-color: #edeeed;
+}
+
+.page6-section2-content {
+  margin-top: 5vmax;
+  width: 50vmax;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 90vh;
+  
+}
+.contact-form {
+  margin-top: 2vmax;
+}
+.contact-row1 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2vmax;
+}
+input {
+  width: 20vmax;
+  border: 2px #a3bbab solid;
+  background: none;
+  border-radius: 7px;
+  height: 5vh;
+  padding: 1vmax;
+  margin-left: 3vmax;
+}
+.textarea {
+  display: flex;
+  justify-content: center;
+  width: 43vmax;
+  margin-left: 3vmax;
+}
+.page6-textarea {
+  width: 60vmax;
+  height: 35vh;
+  border: 2px #a3bbab solid;
+  background: none;
+  border-radius: 7px;
+  padding: 1vmax;
+}
+
+
+  .page6-button{
+    text-align: center;
+    margin-top: 3vmax;
+  }
+
+  .page6-section3{
+    text-align: center;
+    margin-top: 4vmax;
+  }
+.section3-heading{
+    color: #12552b;
+    font-weight: 900;
+}
