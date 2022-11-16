@@ -109,7 +109,7 @@ const Page4 = () => {
                     <p>Votre email</p>
                   </div>
                 </div>
-                <div className="page4-card2-row1">  
+                <div className="page4-card2-row1">
                   <div className="icon-row">
                     <i class="fa-solid fa-city"></i>
                   </div>
@@ -120,7 +120,38 @@ const Page4 = () => {
               </div>
             </div>
             <div className="page4-card3">
-              <div className="page4-Card"></div>
+              <div className="page4-Card">
+                <div className="page4-card3-row1">
+                  <div className="icon1">
+                    <i className="fa-solid fa-mobile"></i>
+                    <p>Mobile</p>
+                  </div>
+                  <div className="icon1">
+                    <i class="fa-solid fa-credit-card"></i>
+                    <p>Card</p>
+                  </div>
+                </div>
+                <div className="page4-card2-row1">
+                  <div className="icon-row">
+                    <i className="fa-solid fa-phone"></i>
+                  </div>
+                  <div className="card-text">
+                    <p>Votre email</p>
+                  </div>
+                </div>
+                <div className="page4-card3-row3">
+                  <div className="mini-card"></div>
+                  <div className="mini-card"></div>
+                </div>
+                <button className="card-button1">
+                  Barkeelu
+                  <img
+                    src="./images/arrow.png"
+                    alt="arrow"
+                    className="arrow-image"
+                  />
+                </button>
+              </div>
             </div>
           </div>
         </div>

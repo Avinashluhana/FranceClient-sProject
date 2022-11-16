@@ -3,6 +3,11 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
+    <>
+    <div className="upper-border">
+
+    </div>
+
     <div className="footer-main">
       <div className="footer-content">
         <div className="footer-logo">
@@ -48,6 +53,7 @@ const Footer = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
