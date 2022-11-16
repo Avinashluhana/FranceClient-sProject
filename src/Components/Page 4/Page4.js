@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../Footer/Footer";
 import "./Page4.css";
 
 const Page4 = () => {
@@ -89,17 +90,42 @@ const Page4 = () => {
                   <span className="text-center">2000 france</span>
                 </div>
               </div>
-
-              <div>
-                <span className="productCardSpan">
-                  <p></p>
-                </span>
+            </div>
+            <div className="page4-card2">
+              <div className="page4-Card">
+                <div className="page4-card2-row1">
+                  <div className="icon-row">
+                    <i class="fa-solid fa-user-group"></i>
+                  </div>
+                  <div className="card-text">
+                    <p>Prenam et Nom</p>
+                  </div>
+                </div>
+                <div className="page4-card2-row1">
+                  <div className="icon-row">
+                    <i class="fa-regular fa-envelope"></i>
+                  </div>
+                  <div className="card-text">
+                    <p>Votre email</p>
+                  </div>
+                </div>
+                <div className="page4-card2-row1">  
+                  <div className="icon-row">
+                    <i class="fa-solid fa-city"></i>
+                  </div>
+                  <div className="card-text">
+                    <p>Votre Ville</p>
+                  </div>
+                </div>
               </div>
-              <div className="button-div"></div>
+            </div>
+            <div className="page4-card3">
+              <div className="page4-Card"></div>
             </div>
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
