@@ -7,7 +7,7 @@ const Page2 = () => {
     <div className="page2-main">
       <div className="page2-banner">
         <div className="banner2-text">
-          <h1>QUI SOMMES-NOUS?</h1>
+          <h1 className="banner-heading">QUI SOMMES-NOUS?</h1>
           <p>Accueil - Qui sommes-nous?</p>
         </div>
       </div>
