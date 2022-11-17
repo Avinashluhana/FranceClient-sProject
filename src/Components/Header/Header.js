@@ -1,10 +1,20 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./Header.css";
 
 const Header = () => {
   return (
     <div>
+      <div className="upper-section">
+        <div className="upper-section-content">
+          <p>
+            <i class="fa-regular fa-user"></i> OUVRIR UN COMPTE
+          </p>
+          <p>
+            <i class="fa-duotone fa-lock-keyhole"></i>SE CONNSCTER
+          </p>
+        </div>
+      </div>
       <div className="header-main">
         <div className="logo-section">
           <img
@@ -13,29 +23,27 @@ const Header = () => {
             className="logo-image"
           />
         </div>
-        {/* <div className="upper-section">
-          <p>OUVRIR UN COMPTE</p>
-        </div> */}
+
         <div className="lower-section">
           <ul className="list">
-            <Link className="links" to="/">
+            <NavLink className="links" to="/" activeClassName="active">
               <li>ACCUEIL</li>
-            </Link>
-            <Link className="links" to="/page2">
+            </NavLink>
+            <NavLink className="links" to="/page2" activeClassName="active">
               <li>QUI SOMMES-NOUS?</li>
-            </Link>
-            <Link className="links" to="/page3">
+            </NavLink>
+            <NavLink className="links" to="/page3" activeClassName="active">
               <li>NOS PROJETS </li>
-            </Link>
-            <Link className="links" to="/page4">
+            </NavLink>
+            <NavLink className="links" to="/page4" activeClassName="active">
               <li> NOS RÉALISATIONS</li>
-            </Link>
-            <Link className="links" to="/page5">
+            </NavLink>
+            <NavLink className="links" to="/page5" activeClassName="active">
               <li> ACTUALITÉS</li>
-            </Link>
-            <Link className="links" to="/page6">
+            </NavLink>
+            <NavLink className="links" to="/page6" activeClassName="active">
               <li>CONTACTS </li>
-            </Link>
+            </NavLink>
           </ul>
         </div>
       </div>
