@@ -32,21 +32,21 @@ const Slider = () => {
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img
-            src="./images/WhatsApp_Image_2022-09-13_at_16.48.51_1.jpeg"
+            src="./images/slider1.jpeg"
             className="d-block w-100 slider-image"
             alt="..."
           />
         </div>
         <div className="carousel-item">
           <img
-            src="/images/WhatsApp_Image_2022-09-13_at_16.48.51_1.jpeg"
+            src="/images/slider2.jpeg"
             className="d-block w-100 slider-image"
             alt="..."
           />
         </div>
         <div className="carousel-item">
           <img
-            src="/images/WhatsApp_Image_2022-09-13_at_16.48.51_1.jpeg"
+            src="/images/slider3.jpg"
             className="d-block w-100 slider-image"
             alt="..."
           />
