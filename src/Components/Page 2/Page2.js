@@ -21,8 +21,7 @@ const Page2 = () => {
           />
           <h1 className="font-weight-bold">
             TOUBA CA KANAM est une association apolitique qui investit sa force,
-            sa richesse, son intelligence au service de CHEIKH AHMADOU BAMBA
-            KHADIM RASSOUL.
+            sa richesse, son intelligence au service de CHEIKH AHMADOU
           </h1>
           <p>
             Une entité, association à but non lucratif crée en 2017 sous le
