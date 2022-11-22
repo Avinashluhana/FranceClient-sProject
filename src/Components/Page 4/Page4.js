@@ -140,8 +140,20 @@ const Page4 = () => {
                   </div>
                 </div>
                 <div className="page4-card3-row3">
-                  <div className="mini-card"></div>
-                  <div className="mini-card"></div>
+                  <div className="mini-card">
+                    <img
+                      src="./images/image.png"
+                      alt="mini"
+                      className="wave-image"
+                    />
+                  </div>
+                  <div className="mini-card">
+                    <img
+                      src="./images/mini-image.png"
+                      alt="mini"
+                      className="orange-money"
+                    />
+                  </div>
                 </div>
                 <button className="card-button1">
                   Barkeelu

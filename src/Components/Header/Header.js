@@ -9,9 +9,9 @@ const Header = () => {
         <div className="upper-section-content">
           <div className="header-text">
             <p className="p-text">
-              <i class="fa-regular fa-user"></i> OUVRIR UN COMPTE{" "}
+              <i class="fa-regular fa-user"></i> OUVRIR UN COMPTE <i class="fa-solid fa-lock"></i> SE CONNSCTER
             </p>
-            <p>SE CONNSCTER</p>
+            <p></p>
           </div>
           <div className="header-icons">
             <i class="fa-brands fa-facebook-f"></i>

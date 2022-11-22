@@ -102,8 +102,19 @@
   flex-direction: row;
 }
 .page4-card3-row1 {
-  height: 5vh;
+  height: 6vh;
+  text-align: center;
+  display: flex;
   justify-content: center;
+}
+.icon1{
+    margin-left: 5vmax;
+    
+}
+.icon1 > p {
+    border-bottom: 1px green solid;
+
+
 }
 
 .icon-row {
@@ -118,6 +129,10 @@
 }
 .icon1 > i {
   font-size: 30px;
+}
+
+.fa-mobile{
+    color: #81af83;
 }
 
 .mini-card {
@@ -145,4 +160,12 @@
   margin-bottom: 20px;
   padding: 5px;
   margin-top: 4px;
+}
+.orange-money {
+  width: 2vmax;
+  margin-left: 0.5vmax;
+}
+.wave-image {
+  width: 3vmax;
+  margin-top: 0.5vmax;
 }

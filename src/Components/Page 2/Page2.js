@@ -38,7 +38,7 @@ const Page2 = () => {
           </button>
         </div>
         <div className="image-section">
-          <img src="./images/pag2-1.png" alt="rectangle" />
+          <img src="./images/pag2-1.png" alt="rectangle"/>
         </div>
       </div>
       <div className="page2-section2">

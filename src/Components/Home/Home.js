@@ -3,7 +3,7 @@ import Footer from "../Footer/Footer";
 // import Header from "../Header/Header";
 import Cards from "../Layouts/Cards";
 import Slider from "../Layouts/Slider";
-import PeopleCard from "../PeopleCard";
+import PeopleCard from "../Layouts/PeopleCard";
 import "./Home.css";
 
 const Home = () => {

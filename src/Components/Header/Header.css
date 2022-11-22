@@ -30,15 +30,16 @@
   display: flex;
   margin-right: 2vmax;
   position: relative;
-  left: 33vmax;
+  left: 23vmax;
 }
 
 .header-icons > i {
-  margin-left: 1vmax;
-  margin-top: 0.5vmax;
+      margin-top: 0.5vmax;
+      margin-left: 1vmax;
 }
 .p-text {
   margin-right: 6vmax;
+  margin-top: 0.5vmax;
 }
 .lower-section {
   width: 60vmax;
@@ -65,4 +66,5 @@
 }
 .vertical-border {
   margin-left: 0.5vmax;
+  height: 4vh;
 }
